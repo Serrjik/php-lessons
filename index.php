@@ -1,5 +1,5 @@
 <?php
-
+/*
 	// Основы PHP. Массивы
 	echo "<h1>ДЗ &ldquo;Основы PHP. Массивы&rdquo;</h1>";
 	echo "<h2>Книги:</h2>";
@@ -22,7 +22,8 @@
 	);
 
 	echo "<ol>";
-	for ( $i=0; $i < count($books); $i++ ) { 
+	for ( $i=0; $i < count($books); $i ) { 
+		$i++;
 		echo "<li>$books[$i]</li>";
 	}
 	echo "</ol>";
@@ -61,5 +62,30 @@
 		}
 	}
 	echo "</ol>";
+
+	*/
+	// Function greeting()
+	function greeting($dayOfWeek, $name = "Guest") {
+		switch ($dayOfWeek) {
+			case '1':
+			case '2':
+			case '3':
+			case '4':
+			case '5':
+				echo "Привет $name! Хорошего и продуктивного рабочего дня!";
+				break;
+			case '6':
+			case '7':
+				echo "Привет $name! Желаю вам хорошо отдохнуть в этот день!";
+				break;
+			default:
+				echo "Привет $name! Нет такого дня недели!";
+				break;
+		}
+
+	}
+	// End - Function greeting()
+
+	greeting(7, "учитель");
 
 ?>
