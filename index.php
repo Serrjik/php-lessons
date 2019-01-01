@@ -62,8 +62,7 @@
 		}
 	}
 	echo "</ol>";
-
-	*/
+	
 	// Function greeting()
 	function greeting($dayOfWeek, $name = "Guest") {
 		switch ($dayOfWeek) {
@@ -87,5 +86,6 @@
 	// End - Function greeting()
 
 	greeting(7, "учитель");
-
+*/
 ?>
+<a href="feedback-form.php">ДЗ &ldquo;Простая форма обратной связи&rdquo;</a>
