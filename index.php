@@ -88,4 +88,4 @@
 	greeting(7, "учитель");
 */
 ?>
-<a href="feedback-form.php">ДЗ &ldquo;Простая форма обратной связи&rdquo;</a>
+<a href="feedback-form.html">ДЗ &ldquo;Простая форма обратной связи&rdquo;</a>
